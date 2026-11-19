@@ -1,0 +1,13 @@
+{
+  "site": "naadunalam-ezhuthalaimurai",
+  "industry": "organic-marketplace",
+  "style": { "primary": "#95 Wabi-Sabi", "supporting": [], "layout": ["#45 Collage UI", "#63 Split-Screen"], "interaction": ["#71 Micro-interaction-Driven"] },
+  "fonts": ["Caveat Brush", "Caveat", "Catamaran"],
+  "palette": ["#1A4D33", "#F4B42A", "#F7F1E3", "#211C16"],
+  "hero": "rice-paper split: big Tamil line ezhu thalaimurai nalam + brush headline left; right a staggered trio of temple-doorway arch photos (Tamil couple with child, paati holding grandchild, palmyra sunrise) with the five element names running under them",
+  "sections": ["arch collage hero", "panchabhootham five-panel expanding strip (earth water fire air sky) with Tamil names", "seven generations lineage rail: photos fade colour to sepia as you go back, tab switcher", "category shelf with real product photos and from-prices", "Thai Pongal combo posters + dates", "sellers split with original farmer cutout + trust rows", "kolam welcome contact panel", "compact forest footer"],
+  "motifs": ["temple doorway arch frames", "rice-flour kolam dot line", "colour-to-sepia time fade"],
+  "components": ["ArchCollage", "ElementStrip", "GenerationRail", "CategoryShelf", "PongalCombo", "SellerSplit", "KolamContact", "FooterHeight"],
+  "header": "sticky 76px rice-paper bar, logo left, 7 anchors at 17px, call pill right",
+  "footer": "compact forest band, logo chip, links, phone, copyright"
+}

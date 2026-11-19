@@ -1,0 +1,72 @@
+{
+  "site": "naadunalam-ezhuthalaimurai",
+  "originalUrl": "https://naadunalam.fastfilings.in/",
+  "originalDomain": "naadunalam.fastfilings.in",
+  "siteType": "single-page",
+  "industry": "organic-marketplace",
+  "autoDeploy": false,
+  "homePageLocked": false,
+  "fonts": {
+    "logoFont": "Fraunces",
+    "allowed": [
+      "Fraunces",
+      "DM Sans",
+      "Noto Serif Tamil"
+    ],
+    "maxFamilies": 3
+  },
+  "colours": {
+    "brand": [
+      "#1A4D33",
+      "#F4B42A"
+    ],
+    "maxBrandColours": 2
+  },
+  "header": {
+    "behaviour": "sticky",
+    "navMinPx": 17
+  },
+  "layout": {
+    "maxSideMarginPx": 56,
+    "maxSectionPaddingPx": 96,
+    "maxFooterVh": 0.4,
+    "footerFitsWithLastSection": true,
+    "sectionsFitOneScreen": "single-page",
+    "exemptSelectors": []
+  },
+  "content": {
+    "copy": "short",
+    "allowEyebrows": false,
+    "allowNumberLabels": false
+  },
+  "motion": {
+    "scrollAnimations": "subtle",
+    "allowPinnedSections": false,
+    "allowCursorEffects": false,
+    "heroVideoControls": false
+  },
+  "images": {
+    "allowGeneratedImages": false
+  },
+  "design": {
+    "primary": "#95 Wabi-Sabi",
+    "supporting": [],
+    "layout": [
+      "#45 Collage UI",
+      "#63 Split-Screen"
+    ],
+    "interaction": [
+      "#71 Micro-interaction-Driven"
+    ]
+  },
+  "notes": [
+    "Third redesign of this domain. Brief: Thaayanbu + Naadu Nalam, iyarkai panchabhootham, seven generations (ezhu thalaimurai) of a Tamil family.",
+    "User chose free-licence photos (Unsplash License) for people/landscapes; generated images were not possible on this machine. Credits in PHOTO-CREDITS.md.",
+    "Shop actions stay inside the redesign (scroll/WhatsApp/call) - no links back to the original domain.",
+    "Store pages added 2026-11-19: /shop, /wishlist, /cart, /checkout. Catalogue = the original store's 82 products (names, Tamil names, prices, pack sizes, product photos) in src/lib/products.ts. Cart + wishlist live in localStorage; checkout validates and hands the order to WhatsApp (no payment backend). Each store page ends with a closing section sized to share the screen with the footer.",
+    "2026-11-19: user asked to change the font style across the whole site to look premium. Caveat Brush / Caveat / Catamaran replaced by Fraunces (headings, prices, wordmark, product names) + DM Sans (text, buttons, forms) + Noto Serif Tamil (all Tamil). Body 17px/1.6; sizes were retuned because Caveat rendered ~20% smaller.",
+    "2026-11-19: hero arches replaced by soft editorial frames (24px radius: one tall + two stacked) with new Unsplash photos (pongal pot on wood fire, three generations, paddy basket). Cards never lift or cast shadows on hover (user: no overlay/underlay). Shop grid rows are sized to the screen (useFitRows) so the first screen ends on a whole row and nothing peeks from below.",
+    "2026-11-19: user wants one font style per heading: no italic or lighter-weight words mixed into a headline (hero 'seven generations' is now upright Fraunces 400; italic face no longer loaded).",
+    "2026-11-19: hero photos must be relevant to the brand: user chose 'Tamil family + your products'. Hero = gen1-parents (Tamil family at pooja) wide across the top + two store product shots (Mappillai samba rice in clay pot, Nallennai gingelly oil). Generic stock (smoking pot, non-Tamil family, raw paddy) was rejected."
+  ]
+}
